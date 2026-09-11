@@ -1,0 +1,25 @@
+
+["Player settings"]
+	#Toggling this off will make the chase effects less flashy
+	"Flashing lights" = true
+	#Toggle on and off the chase effects that happen on your screen
+	"Chase Effects" = true
+	#Toggle on and off the mod messing with your window
+	"Window Manager" = true
+	#You can't escape the chase
+	"You can't escape" = false
+
+["Live reaction"]
+	#This will force Nothing_left to make a reaction instead of him having a chance to do it (This only works for certain reactions)
+	"Force Reaction" = false
+	#This will display static every time Nothing_left changes his reaction
+	"Display Static" = true
+
+["World settings"]
+	#This is for if the game can sometimes disable your chat
+	"Can Chat disabled" = false
+
+["Event settings"]
+	#The sun will warn you when a chaotic night is going to happen
+	"Sun Warning" = true
+

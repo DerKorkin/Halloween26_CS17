@@ -1,0 +1,31 @@
+
+[hostile_behavior]
+	#Minimum time in seconds before Minesis can turn hostile after spawning. Default: 180
+	#Range: 10 ~ 3600
+	min_hostile_delay_seconds = 180
+	#Maximum time in seconds before Minesis turns hostile. Must be >= min. Default: 300
+	#Range: 10 ~ 7200
+	max_hostile_delay_seconds = 300
+	#Whether the transformation applies blindness/darkness/nausea to nearby players. Default: true
+	transformation_screen_effects = true
+
+[voice]
+	#Minimum time in seconds between autonomous ambient voice clips. Default: 600 (10 min)
+	#Range: 30 ~ 86400
+	voice_replay_min_seconds = 600
+	#Maximum time in seconds between autonomous ambient voice clips. Default: 1200 (20 min)
+	#Range: 30 ~ 86400
+	voice_replay_max_seconds = 1200
+	#RMS energy threshold [0.0-1.0] below which an audio clip is treated as background noise
+	#and never used as a direct response to player speech. Default: 0.02
+	#Range: 0.0 ~ 1.0
+	speech_rms_threshold = 0.02
+
+[world_interaction]
+	#Probability [0.0-1.0] that Minesis deposits an Echoes Below disc when opening a chest. Default: 0.30
+	#Range: 0.0 ~ 1.0
+	chest_disc_drop_chance = 0.3
+	#Minimum number of recorded voice clips required before Minesis can appear naturally. Default: 50
+	#Range: 1 ~ 500
+	natural_appearance_min_clips = 50
+

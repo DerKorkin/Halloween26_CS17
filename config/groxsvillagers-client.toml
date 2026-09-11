@@ -1,0 +1,10 @@
+
+#Volume multipliers for this mod's sounds. These stack with the vanilla Friendly Creatures volume slider.
+[sounds]
+	#Volume multiplier for villager scream and crying villager ambient sounds.
+	#Range: 0.0 ~ 2.0
+	villagerSoundsVolume = 1.0
+	#Volume multiplier for all dumb villager sounds.
+	#Range: 0.0 ~ 2.0
+	dumbVillagerSoundsVolume = 1.0
+

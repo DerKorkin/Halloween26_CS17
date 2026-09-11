@@ -1,0 +1,109 @@
+#When true, all patches are active. Set to false to disable this mod.
+patchEnabled = true
+#Controls how the cross and chest procedures search for nearby villages.
+#true  = only search already-loaded chunks.
+#false = use From The Caves' original search system
+onlyLoadedChunks = true
+#When true, throttles From The Caves' audio capture retry so it only
+#attempts to open the microphone once every 10 seconds instead of every
+#client tick. Fixes a performance issue where players without a working
+#microphone trigger an OS-level audio device scan 20 times per second.
+reduceAudioCalls = true
+#When true, tamed cats are excluded from From The Caves' cat events.
+#Fixes tamed cats running away and going missing. Wild cats are still affected.
+protectTamedCats = true
+
+#Remove From The Caves' possessed mob variants from biome spawn lists.
+#Each toggle only affects the possessed variant; vanilla mobs are unaffected.
+#All are disabled by default.
+[possessedSpawns]
+	#When true, removes From The Caves' possessed cow from all biome spawn lists.
+	#Vanilla cows are unaffected. Disabled by default.
+	removePossessedCowSpawn = false
+	#When true, removes From The Caves' possessed iron golem from all biome spawn lists.
+	#Vanilla iron golems are unaffected. Disabled by default.
+	removePossessedIronGolemSpawn = false
+	#There is an issue that may cause a lot of pigs to spawn.
+	#When true, removes From The Caves' possessed pig from all biome spawn lists.
+	#Vanilla pigs are unaffected. Disabled by default.
+	removePossessedPigSpawn = false
+	#When true, removes From The Caves' possessed sheep from all biome spawn lists.
+	#Vanilla sheep are unaffected. Disabled by default.
+	removePossessedSheepSpawn = false
+	#When true, removes From The Caves' possessed villager from all biome spawn lists.
+	#Vanilla villagers are unaffected. Disabled by default.
+	removePossessedVillagerSpawn = false
+	#When true, removes From The Caves' possessed wolf from all biome spawn lists.
+	#Vanilla wolves are unaffected. Disabled by default.
+	removePossessedWolfSpawn = false
+
+#Toggle individual From The Caves horror events on or off.
+#All events are enabled by default.
+[events]
+	#Horror events triggered near anvils.
+	anvilEvents = true
+	#Horror events triggered near armor stands.
+	armorStandEvents = true
+	#Horror events involving bats.
+	batEvents = true
+	#Horror events triggered when sleeping in a bed.
+	bedEvents = true
+	#Horror events triggered near beacons.
+	beaconEvents = true
+	#Horror events triggered when a bell rings.
+	bellEvents = true
+	#Horror events triggered when handling books.
+	bookEvents = true
+	#Horror events triggered near bookshelves.
+	bookshelfEvents = true
+	#Horror events triggered when pressing buttons.
+	buttonEvents = true
+	#Horror events triggered near campfires.
+	campfireEvents = true
+	#Horror events involving cats.
+	catEvents = true
+	#Horror events triggered when opening chests.
+	chestEvents = true
+	#Horror events triggered near crafting tables.
+	craftingTableEvents = true
+	#Horror events triggered when using doors.
+	doorEvents = true
+	#Horror events triggered near furnaces.
+	furnaceEvents = true
+	#Horror events triggered near dropped items.
+	itemEntityEvents = true
+	#Horror events triggered near item frames.
+	itemFrameEvents = true
+	#Horror events triggered near jukeboxes.
+	jukeboxEvents = true
+	#Horror events triggered when using ladders.
+	ladderEvents = true
+	#Horror events triggered near lecterns.
+	lecternEvents = true
+	#Horror events triggered when flipping levers.
+	leverEvents = true
+	#Horror events triggered near torches and light sources.
+	lightEvents = true
+	#Horror events triggered near note blocks.
+	noteBlockEvents = true
+	#Horror events triggered near paintings.
+	paintingEvents = true
+	#Horror events involving parrots.
+	parrotEvents = true
+	#Horror events triggered near player head blocks.
+	playerHeadEvents = true
+	#Horror events triggered when stepping on pressure plates.
+	pressurePlateEvents = true
+	#Horror events triggered near signs.
+	signEvents = true
+	#Horror events triggered near stairs.
+	stairsEvents = true
+	#Horror events triggered when walking (footstep events).
+	stepsEvents = true
+	#Horror events triggered when using trapdoors.
+	trapdoorEvents = true
+	#Horror events triggered near windows (glass panes).
+	windowEvents = true
+	#Horror events involving wolves (dogs).
+	wolfEvents = true
+

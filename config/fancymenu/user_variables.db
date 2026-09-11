@@ -1,0 +1,14 @@
+type = user_variables
+
+variable {
+  name = beendet
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = todesurteil
+  value = 1
+  reset_on_launch = false
+}
+

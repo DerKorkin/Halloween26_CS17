@@ -1,0 +1,61 @@
+type = custom_gui_screens
+
+overridden_screens {
+  title_screen = bettertitle
+}
+
+custom_gui {
+  identifier = endpop
+  title = 
+  allow_esc = true
+  transparent_world_background = false
+  transparent_world_background_overlay = true
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = false
+}
+
+custom_gui {
+  identifier = creepyegg
+  title = 
+  allow_esc = false
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = creepyegg3
+  title = 
+  allow_esc = false
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = creepyegg2
+  title = 
+  allow_esc = false
+  transparent_world_background = false
+  transparent_world_background_overlay = false
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = bettertitle
+  title = 
+  allow_esc = false
+  transparent_world_background = false
+  transparent_world_background_overlay = true
+  pause_game = false
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+

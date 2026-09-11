@@ -1,0 +1,594 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1787851252025
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  universal_layout_blacklist = pause_screen;options_screen;sound_options_screen;skin_customization_screen;language_select_screen;accessibility_options_screen;chat_options_screen;pack_selection_screen;controls_screen;mouse_settings_screen;com.blamejared.controlling.client.NewKeyBindsScreen;creepyegg;com.mrcrayfish.controllable.client.gui.screens.SettingsScreen;share_to_lan_screen;
+  [loading_requirement_container_meta:b19c346f-246e-40b4-aff6-faf3634cb6fc-1787851169900] = [groups:][instances:]
+}
+
+menu_background {
+  instance_identifier = 7af1030d-3ade-4d83-b4be-2623e165fdca-1783462578599
+  background_type = color_fancymenu
+  show_background = false
+  color = #FFC800FF
+}
+
+menu_background {
+  instance_identifier = 9afdb667-fbb4-442d-82a1-e7dbb5bf685e-1783462578599
+  background_type = panorama
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = c68061ee-c0a9-4dd7-81d7-d3356c462e3c-1783462578599
+  background_type = image
+  show_background = false
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+}
+
+menu_background {
+  instance_identifier = 88ff80bf-fbac-45e9-8177-8274d09e1963-1783462578599
+  background_type = slideshow
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = 08b505d2-1d0e-47c1-b7a8-45b4516a7230-1783462578599
+  background_type = video
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  play_in_editor = true
+}
+
+menu_background {
+  instance_identifier = 9434c6d6-b1b2-4184-ac24-addf7c8d716e-1787851124866
+  background_type = video_rinku
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+}
+
+menu_background {
+  instance_identifier = 33849100-ccb0-483c-b6c2-6d52b7195423-1783462578599
+  background_type = browser
+  show_background = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+menu_background {
+  instance_identifier = 4598ffc0-e6e3-4836-ab96-0793dd3deee8-1783462578599
+  background_type = glsl
+  show_background = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+decoration_overlay {
+  overlay_type = browser
+  instance_identifier = d70dbf69-619f-4e24-aa45-76502780b5b2-1783462578599
+  show_decoration_overlay = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+decoration_overlay {
+  overlay_type = glsl
+  instance_identifier = a769f0b3-4619-4148-ba91-129a8474de18-1783462578599
+  show_decoration_overlay = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+decoration_overlay {
+  overlay_type = buddy
+  instance_identifier = 17757fa2-2fa8-45cb-9e2b-ae6a9ccc8e71-1783462578599
+  show_decoration_overlay = false
+  buddy_hunger_decay_per_tick = 0.005
+  buddy_happiness_decay_per_tick = 0.003
+  buddy_fun_decay_per_tick = 0.002
+  buddy_energy_decay_per_tick = 0.002
+  buddy_energy_sleep_regen_per_tick = 0.03
+  buddy_play_energy_drain_per_tick = 0.03
+  buddy_play_fun_gain_per_tick = 0.05
+  buddy_play_happiness_gain_per_tick = 0.01
+  buddy_play_hunger_drain_per_tick = 0.01
+  buddy_chase_energy_drain_per_tick = 0.024
+  buddy_chase_hunger_drain_per_tick = 0.005
+  buddy_hop_energy_drain_per_tick = 0.005
+  buddy_hop_hunger_drain_per_tick = 0.002
+  buddy_excited_energy_drain_per_tick = 0.01
+  buddy_excited_happiness_gain_per_tick = 0.01
+  buddy_excited_hunger_drain_per_tick = 0.003
+  buddy_running_energy_drain_per_tick = 0.01
+  buddy_running_hunger_drain_per_tick = 0.005
+  buddy_food_hunger_gain = 20.0
+  buddy_food_happiness_gain = 5.0
+  buddy_pet_happiness_gain = 15.0
+  buddy_wakeup_happiness_penalty = 2.5
+  buddy_max_poops_cap = 10
+  buddy_can_die = true
+}
+
+decoration_overlay {
+  overlay_type = string_lights
+  instance_identifier = 3f62a256-dd48-46c8-8daa-c186905e1ae9-1783462578599
+  show_decoration_overlay = false
+  string_lights_scale = 1.0
+  string_lights_wind_strength = 1.0
+  string_lights_flicker_speed = 1.0
+  string_lights_left_center_to_top_center = true
+  string_lights_right_center_to_top_center = true
+  string_lights_bottom_left_to_top_center = false
+  string_lights_bottom_right_to_top_center = false
+  string_lights_top_left_to_top_right = true
+  string_lights_bottom_left_to_bottom_right = false
+  string_lights_loose_left_top = false
+  string_lights_loose_right_top = false
+  string_lights_left_center_to_top_center_christmas_mode = false
+  string_lights_right_center_to_top_center_christmas_mode = false
+  string_lights_bottom_left_to_top_center_christmas_mode = false
+  string_lights_bottom_right_to_top_center_christmas_mode = false
+  string_lights_top_left_to_top_right_christmas_mode = false
+  string_lights_bottom_left_to_bottom_right_christmas_mode = false
+  string_lights_loose_left_top_christmas_mode = false
+  string_lights_loose_right_top_christmas_mode = false
+  string_lights_left_center_to_top_center_color_hex = #FFD27A
+  string_lights_right_center_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_left_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_right_to_top_center_color_hex = #FFD27A
+  string_lights_top_left_to_top_right_color_hex = #FFD27A
+  string_lights_bottom_left_to_bottom_right_color_hex = #FFD27A
+  string_lights_loose_left_top_color_hex = #FFD27A
+  string_lights_loose_right_top_color_hex = #FFD27A
+}
+
+decoration_overlay {
+  overlay_type = fireworks
+  instance_identifier = 265e5ee0-5115-4a11-83f1-04775df07c04-1783462578599
+  show_decoration_overlay = false
+  fireworks_scale = 1.0
+  fireworks_explosion_size = 1.0
+  fireworks_amount = 1.0
+  fireworks_show_rockets = true
+}
+
+decoration_overlay {
+  overlay_type = snowfall
+  instance_identifier = 26249045-0857-48fd-987e-d1cdf6c9a1fc-1783462578599
+  show_decoration_overlay = false
+  snow_intensity = 1.0
+  snow_scale = 1.0
+  snow_speed = 1.0
+  snow_accumulation = true
+  snow_color_hex = #FFFFFF
+}
+
+decoration_overlay {
+  overlay_type = rainfall
+  instance_identifier = 73b41c28-e6f3-4208-b718-6f2dfad8c0a7-1783462578599
+  show_decoration_overlay = false
+  rain_intensity = 1.0
+  rain_scale = 1.0
+  rain_thunder_brightness = 1.0
+  rain_puddles = true
+  rain_drips = true
+  rain_thunder = false
+  rain_color_hex = #CFE7FF
+}
+
+decoration_overlay {
+  overlay_type = fireflies
+  instance_identifier = 92d32440-e6f5-4d24-8678-8f13e161c51f-1783462578599
+  show_decoration_overlay = false
+  firefly_group_density = 1.0
+  firefly_group_amount = 1.0
+  firefly_group_size = 1.0
+  firefly_scale = 1.0
+  firefly_follow_mouse = true
+  firefly_landing = true
+  firefly_color_hex = #FFE08A
+}
+
+decoration_overlay {
+  overlay_type = leaves
+  instance_identifier = b3dfdd04-9eac-4b9a-9885-b007847ae7df-1783462578599
+  show_decoration_overlay = false
+  leaves_density = 1.0
+  leaves_wind_intensity = 1.0
+  leaves_wind_blows = true
+  leaves_fall_speed = 1.0
+  leaves_scale = 1.0
+  leaves_color_start_hex = #7BA84F
+  leaves_color_end_hex = #D58A3B
+}
+
+decoration_overlay {
+  overlay_type = confetti
+  instance_identifier = 224fb4cd-5748-4d2d-9fd9-ffffdcc67b8b-1783462578599
+  show_decoration_overlay = false
+  confetti_scale = 1.0
+  confetti_fall_speed = 1.0
+  confetti_burst_density = 1.0
+  confetti_burst_amount = 1.0
+  confetti_particle_cap = 500
+  confetti_color_mix_mode = true
+  confetti_mouse_click_mode = false
+  confetti_color_hex = #FFFFFF
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  audio_instance_0 = [source:local]/config/fancymenu/assets/titlethemeh24.ogg
+  audio_instance_weight_0 = 1.0
+  audio_instance_1 = [source:local]/config/fancymenu/assets/miitopia_meanwhile.ogg
+  audio_instance_weight_1 = 1.0
+  audio_instance_2 = [source:local]/config/fancymenu/assets/undertale_but_nobody_came.ogg
+  audio_instance_weight_2 = 1.0
+  audio_instance_3 = [source:local]/config/fancymenu/assets/undertale_in_my_way.ogg
+  audio_instance_weight_3 = 1.0
+  audio_instance_4 = [source:local]/config/fancymenu/assets/moogcity_slowed.ogg
+  audio_instance_weight_4 = 1.0
+  audio_instance_5 = [source:local]/config/fancymenu/assets/bunker_deltarune_chapter5ust.ogg
+  audio_instance_weight_5 = 1.0
+  audio_instance_6 = [source:local]/config/fancymenu/assets/galceir.ogg
+  audio_instance_weight_6 = 1.0
+  audio_instance_7 = [source:local]/config/fancymenu/assets/man_music12.ogg
+  audio_instance_weight_7 = 1.0
+  audio_instance_8 = [source:local]/config/fancymenu/assets/giygas_cut.ogg
+  audio_instance_weight_8 = 1.0
+  audio_instance_9 = [source:local]/config/fancymenu/assets/menu3.ogg
+  audio_instance_weight_9 = 1.0
+  audio_instance_10 = [source:local]/config/fancymenu/assets/menu4.ogg
+  audio_instance_weight_10 = 1.0
+  audio_instance_11 = [source:local]/config/fancymenu/assets/mus_amalgam.ogg
+  audio_instance_weight_11 = 1.0
+  audio_instance_12 = [source:local]/config/fancymenu/assets/mus_amalgam_breakcore.ogg
+  audio_instance_weight_12 = 1.0
+  audio_instance_13 = [source:local]/config/fancymenu/assets/earthbound_the_place.ogg
+  audio_instance_weight_13 = 1.0
+  audio_instance_14 = [source:local]/config/fancymenu/assets/pm64_over_shiver_mountain.ogg
+  audio_instance_weight_14 = 1.0
+  audio_instance_15 = [source:local]/config/fancymenu/assets/off_burned_bodies.ogg
+  audio_instance_weight_15 = 1.0
+  audio_instance_16 = [source:local]/config/fancymenu/assets/scp_cb_slowed.ogg
+  audio_instance_weight_16 = 1.0
+  audio_instance_17 = [source:local]/config/fancymenu/assets/undertale_premonition_edit.ogg
+  audio_instance_weight_17 = 1.0
+  audio_instance_18 = [source:local]/config/fancymenu/assets/berdly_battle_heartbeat_true_edit.ogg
+  audio_instance_weight_18 = 1.0
+  audio_instance_19 = [source:local]/config/fancymenu/assets/boards_of_canada_beware_the_friendly_stranger_edit.ogg
+  audio_instance_weight_19 = 1.0
+  audio_instance_20 = [source:local]/config/fancymenu/assets/sh2_never_forgive_me.ogg
+  audio_instance_weight_20 = 1.0
+  audio_instance_21 = [source:local]/config/fancymenu/assets/help_star_runner.ogg
+  audio_instance_weight_21 = 1.0
+  audio_instance_22 = [source:local]/config/fancymenu/assets/dna_evidence_downbeat_edit.ogg
+  audio_instance_weight_22 = 1.0
+  audio_instance_23 = [source:local]/config/fancymenu/assets/k_slowed.ogg
+  audio_instance_weight_23 = 1.0
+  audio_instance_24 = [source:local]/config/fancymenu/assets/white_noiz.ogg
+  audio_instance_weight_24 = 1.0
+  audio_instance_25 = [source:local]/config/fancymenu/assets/pm_ttsmvogi.ogg
+  audio_instance_weight_25 = 1.0
+  audio_instance_26 = [source:local]/config/fancymenu/assets/flowey_missing.ogg
+  audio_instance_weight_26 = 1.0
+  audio_instance_27 = [source:local]/config/fancymenu/assets/consumer711.ogg
+  audio_instance_weight_27 = 1.0
+  audio_instance_28 = [source:local]/config/fancymenu/assets/help_dance25.ogg
+  audio_instance_weight_28 = 1.0
+  audio_instance_29 = [source:local]/config/fancymenu/assets/display_red_mortem.ogg
+  audio_instance_weight_29 = 1.0
+  audio_instance_30 = [source:local]/config/fancymenu/assets/dust_life_2_triage_at_dawn.ogg
+  audio_instance_weight_30 = 1.0
+  audio_instance_31 = [source:local]/config/fancymenu/assets/somethings_laasta.ogg
+  audio_instance_weight_31 = 1.0
+  audio_instance_32 = [source:local]/config/fancymenu/assets/kahelp_jointhelobbyjointhellobby.ogg
+  audio_instance_weight_32 = 1.0
+  audio_instance_33 = [source:local]/config/fancymenu/assets/helpmas_the_engine_icantdoit.ogg
+  audio_instance_weight_33 = 1.0
+  audio_instance_34 = [source:local]/config/fancymenu/assets/plate15_baseplateproject.ogg
+  audio_instance_weight_34 = 1.0
+  play_mode = shuffle
+  looping = true
+  sound_source = master
+  element_type = audio_v2
+  instance_identifier = d1ce2200-ffd0-45ac-ae48-ddfb439c8f7e-1759581005498
+  custom_element_layer_name = TopFitteMusic
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1029
+  auto_sizing_base_gui_scale = 0.0
+  sticky_anchor = false
+  anchor_point = bottom-centered
+  x = -26
+  y = -35
+  width = 52
+  height = 32
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 9fbcbb48-c8a3-4dfa-9f6e-228754f6f1eb-1759579710596
+  [loading_requirement_container_meta:9fbcbb48-c8a3-4dfa-9f6e-228754f6f1eb-1759579710596] = [groups:][instances:]
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #5CA6EFFF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  volume = 1.0
+}
+
+element {
+  source = DEV MODE
+  source_mode = direct
+  shadow = false
+  refresh = false
+  bouncing = true
+  element_type = splash_text
+  instance_identifier = b50beccc-815d-4a83-8387-2d7a0b85201e-1784667255247
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
+  sticky_anchor = false
+  anchor_point = bottom-centered
+  x = -50
+  y = -55
+  width = 100
+  height = 20
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8ffb259b-85d6-4c0e-8ba1-fb6b7eb57d84-1784667255247
+  [loading_requirement_container_meta:8ffb259b-85d6-4c0e-8ba1-fb6b7eb57d84-1784667255247] = [groups:][instances:9fd7526b-565f-4aae-944d-fa4d48a725bf-1784667313776;]
+  [loading_requirement:is_modpack_mode_enabled][requirement_mode:if_not][req_id:9fd7526b-565f-4aae-944d-fa4d48a725bf-1784667313776] = 
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  scale = 0.6
+  rotation = 0.0
+  base_color = #94FF00FF
+}
+
+element {
+  source = Melde das an mich falls du das siehst
+  source_mode = direct
+  shadow = false
+  refresh = false
+  bouncing = true
+  element_type = splash_text
+  instance_identifier = 7b904111-8cee-4cd4-9e17-9ce0952a30f9-1784739972926
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  auto_sizing = false
+  auto_sizing_base_screen_width = 2560
+  auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = b50beccc-815d-4a83-8387-2d7a0b85201e-1784667255247
+  x = 0
+  y = 10
+  width = 100
+  height = 15
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8ffb259b-85d6-4c0e-8ba1-fb6b7eb57d84-1784667255247
+  [loading_requirement_container_meta:8ffb259b-85d6-4c0e-8ba1-fb6b7eb57d84-1784667255247] = [groups:][instances:9fd7526b-565f-4aae-944d-fa4d48a725bf-1784667313776;]
+  [loading_requirement:is_modpack_mode_enabled][requirement_mode:if_not][req_id:9fd7526b-565f-4aae-944d-fa4d48a725bf-1784667313776] = 
+  enable_parallax = false
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  layer_hidden_in_editor = false
+  advanced_rotation_mode = false
+  advanced_vertical_tilt_mode = false
+  advanced_horizontal_tilt_mode = false
+  should_be_affected_by_decoration_overlays = false
+  in_editor_color = #FFC800FF
+  advanced_posx = -2147483648
+  advanced_posy = -2147483648
+  advanced_width = -2147483648
+  advanced_height = -2147483648
+  stretch_x = false
+  stretch_y = false
+  appearance_delay_seconds = 1.0
+  disappearance_delay_seconds = 1.0
+  fade_in_speed = 1.0
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
+  rotation_degrees = 0.0
+  advanced_rotation_degrees = 0.0
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_degrees = 0.0
+  scale = 0.6
+  rotation = 0.0
+  base_color = #94FF00FF
+}
+

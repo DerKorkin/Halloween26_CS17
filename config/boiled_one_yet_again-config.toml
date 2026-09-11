@@ -1,0 +1,37 @@
+
+[Cooldowns]
+	#in ticks, may increase or decrease depending on variant that spawns
+	"Average Maximum Boiled One Spawn Cooldown" = 38000.0
+	#in ticks, may increase or decrease depending on variant that spawns
+	"Average Minimum Boiled One Spawn Cooldown" = 12000.0
+
+[Chances]
+	#after the cooldown ends
+	"Boiled One Spawn Chance Per Tick" = 12000.0
+	#1 in X chance for the spawn to be replaced with the spawn sound
+	"Boiled One Noise Chance" = 3.0
+	#1 in X chance for the spawn to be this variant, if set to 1, some other variants cannot spawn (Initial will always be the first to spawn in your world no matter config)
+	"Boiled One Behind Spawn Chance" = 3.0
+	#1 in X chance for the spawn to be this variant, if set to 1, some other variants cannot spawn (Initial will always be the first to spawn no matter config)
+	"Boiled One Tall Spawn Chance" = 4.0
+	#1 in X chance for the spawn to be this variant, if set to 1, some other variants cannot spawn (Initial will always be the first to spawn no matter config)
+	"Boiled One Wave Spawn Chance" = 5.0
+	#1 in X chance for PHEN-228 to spawn when you're sleeping, if Insomnia is disabled
+	"Boiled One Sleep Watching Spawn Chance" = 5.0
+
+["Event Stuff"]
+	#after the cooldown ends
+	"Boiled One Initial Speech Chance Per Tick" = 12000.0
+	#after the cooldown ends
+	"Blood Rain Chance Per Tick" = 24000.0
+	#in ticks
+	"Maximum Blood Rain Cooldown" = 66000.0
+	#in ticks
+	"Minimum Blood Rain Cooldown" = 48000.0
+	#if true, you will get the blindness effect when blood rain is happening
+	"Blood Rain Blindness" = true
+
+[Misc]
+	#when paranoid players cannot sleep
+	Insomnia = true
+

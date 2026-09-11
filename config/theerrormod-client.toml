@@ -1,0 +1,34 @@
+
+#The Error Mod Configuration
+[Error_Levels]
+	#Ticks until level 2 (20 minutes = 1200)
+	#Range: 100 ~ 36000
+	level_2_ticks = 1200
+	#Ticks until level 3 (35 minutes = 2100)
+	#Range: 200 ~ 36000
+	level_3_ticks = 2100
+	#Ticks until level 4 (50 minutes = 3000)
+	#Range: 300 ~ 36000
+	level_4_ticks = 3000
+	#Ticks until level 5 possible (60 minutes = 3600)
+	#Range: 400 ~ 36000
+	level_5_ticks = 3600
+
+[Environment_Multipliers]
+	#Time multiplier in caves
+	#Range: 1.0 ~ 5.0
+	cave_multiplier = 1.5
+	#Time multiplier at night
+	#Range: 1.0 ~ 5.0
+	night_multiplier = 1.3
+	#Time multiplier indoors
+	#Range: 1.0 ~ 5.0
+	indoor_multiplier = 1.2
+
+[General]
+	#Enable The Error Mod
+	enable_mod = true
+	#Chance per tick to spawn The Error (0.0-1.0)
+	#Range: 0.0 ~ 0.1
+	spawn_chance = 0.001
+

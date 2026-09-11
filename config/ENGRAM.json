@@ -1,0 +1,12 @@
+{
+  "enableSettingsModifications": true,
+  "enableRenderDistanceChange": true,
+  "enableBrightnessChange": true,
+  "disableGammaCap": false,
+  "enableFpsChange": true,
+  "enableMouseSensitivityChange": true,
+  "enableSmoothLightingChange": true,
+  "enableMusicVolumeLocking": true,
+  "speedOfProgression": "NORMAL",
+  "autoLanPort": 25565
+}

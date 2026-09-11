@@ -1,0 +1,180 @@
+# Metadaten, nicht verändern.
+# Default: 0
+configVersion = 3
+
+[general]
+
+	# Schaltet alle Funktionen des Mods ein/aus.
+	# Default: true
+	enabled = true
+	# Deaktiviere diese Option, um die Effekte des Mods ausschließlich in der Ego-Perspektive zu nutzen.
+	# Default: true
+	enableInThirdPerson = true
+	# How smooth should transitions between contextual profiles such as walking and swimming be.
+	# Default: 0.1
+	contextTransitionSmoothing = 0.1
+	# Empfindlichkeit der Kamerarollbewegung, die durch horizontales Drehen verursacht wird.
+	# Default: 1.0
+	turningRollAccumulation = 1.0
+	# Maximale Stärke der Kamerarollbewegung, die durch horizontales Drehen verursacht wird.
+	# Default: 1.25
+	turningRollIntensity = 1.25
+	# Glättung des Abklingens der Kamerarollbewegung, die durch horizontales Drehen verursacht wird.
+	# Default: 1.0
+	turningRollSmoothing = 1.0
+	# Stärke der sanften, zufälligen Schwenkbewegung, die eintritt, wenn der Spieler längere Zeit untätig bleibt.
+	# Default: 0.6
+	cameraSwayIntensity = 0.0
+	# Frequenz der sanften, zufälligen Schwenkbewegung, die eintritt, wenn der Spieler längere Zeit untätig bleibt.
+	# Default: 0.16
+	cameraSwayFrequency = 0.0
+	# Zeit, die der Spieler untätig bleiben muss, bevor die sanfte, zufällige Schwenkbewegung beginnt, eingeblendet zu werden.
+	# Default: 0.15
+	cameraSwayFadeInDelay = 0.0
+	# Zeit, die benötigt wird, damit die sanfte, zufällige Schwenkbewegung nach längerer Untätigkeit des Spielers vollständig eingeblendet ist.
+	# Default: 5.0
+	cameraSwayFadeInLength = 0.0
+	# Zeit, die benötigt wird, damit die sanfte, zufällige Schwenkbewegung ausgeblendet wird, wenn der Spieler sich nach Untätigkeit wieder bewegt.
+	# Default: 0.75
+	cameraSwayFadeOutLength = 0.0
+	# Maximale Stärke aller Bildschirmwackeleffekte.
+	# Default: 2.5
+	screenShakesMaxIntensity = 5.0
+	# Geschwindigkeit, mit der Bildschirmwackelbewegungen die Richtung ändern oder schwingen.
+	# Default: 6.0
+	screenShakesMaxFrequency = 6.0
+	# Ein Wert zwischen [0..1], der mit der Stärke des Bildschirmwackelns durch Explosionen verknüpft ist.
+	# Default: 1.0
+	explosionTrauma = 1.0
+	# Ein Wert zwischen [0..1], der mit der Stärke des Bildschirmwackelns durch Blitzschlag-gebundenen Donner verknüpft ist.
+	# Default: 0.05
+	thunderTrauma = 0.2
+	# Ein Wert zwischen [0..1], der mit der Stärke des Bildschirmwackelns durch Armbewegungen des Spielers verknüpft ist. Sollte am besten sehr niedrig gehalten werden.
+	# Default: 0.03
+	handSwingTrauma = 0.0
+
+[walking]
+
+	# Stärke der Kamerarotation (Rollen), die durch Seitwärtslaufen oder seitliche horizontale Bewegung verursacht wird.
+	# Default: 10.0
+	strafingRollFactor = 11.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch Vorwärts- oder Rückwärtsbewegung verursacht wird.
+	# Default: 7.0
+	forwardVelocityPitchFactor = 8.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch vertikale Geschwindigkeit verursacht wird.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 3.5
+	# Glättung der Kamerakipp- und Rollbewegungen, die durch horizontale Bewegung verursacht werden.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 2.0
+	# Glättung der Kamerakippbewegungen, die durch vertikale Bewegung verursacht werden.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 2.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 0.0
+	cameraSmoothing = 0.0
+
+[sprinting]
+
+	# Stärke der Kamerarotation (Rollen), die durch Seitwärtslaufen oder seitliche horizontale Bewegung verursacht wird.
+	# Default: 12.5
+	strafingRollFactor = 17.5
+	# Stärke der Kamerakippbewegung (Neigung), die durch Vorwärts- oder Rückwärtsbewegung verursacht wird.
+	# Default: 9.5
+	forwardVelocityPitchFactor = 15.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch vertikale Geschwindigkeit verursacht wird.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 8.0
+	# Glättung der Kamerakipp- und Rollbewegungen, die durch horizontale Bewegung verursacht werden.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 10.0
+	# Glättung der Kamerakippbewegungen, die durch vertikale Bewegung verursacht werden.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 10.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 0.6
+	cameraSmoothing = 0.6
+
+[swimming]
+
+	# Stärke der Kamerarotation (Rollen), die durch Seitwärtslaufen oder seitliche horizontale Bewegung verursacht wird.
+	# Default: -30.0
+	strafingRollFactor = -30.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch Vorwärts- oder Rückwärtsbewegung verursacht wird.
+	# Default: 21.0
+	forwardVelocityPitchFactor = 21.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch vertikale Geschwindigkeit verursacht wird.
+	# Default: 7.5
+	verticalVelocityPitchFactor = 7.5
+	# Glättung der Kamerakipp- und Rollbewegungen, die durch horizontale Bewegung verursacht werden.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Glättung der Kamerakippbewegungen, die durch vertikale Bewegung verursacht werden.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 1.5
+	cameraSmoothing = 1.5
+
+[flying]
+
+	# Stärke der Kamerarotation (Rollen), die durch Seitwärtslaufen oder seitliche horizontale Bewegung verursacht wird.
+	# Default: -10.0
+	strafingRollFactor = 0.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch Vorwärts- oder Rückwärtsbewegung verursacht wird.
+	# Default: 7.0
+	forwardVelocityPitchFactor = 0.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch vertikale Geschwindigkeit verursacht wird.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 0.0
+	# Glättung der Kamerakipp- und Rollbewegungen, die durch horizontale Bewegung verursacht werden.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 0.0
+	# Glättung der Kamerakippbewegungen, die durch vertikale Bewegung verursacht werden.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 0.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 1.0
+	cameraSmoothing = 0.0
+
+[mounts]
+
+	# Stärke der Kamerarotation (Rollen), die durch Seitwärtslaufen oder seitliche horizontale Bewegung verursacht wird.
+	# Default: 20.0
+	strafingRollFactor = 20.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch Vorwärts- oder Rückwärtsbewegung verursacht wird.
+	# Default: 3.5
+	forwardVelocityPitchFactor = 3.5
+	# Stärke der Kamerakippbewegung (Neigung), die durch vertikale Geschwindigkeit verursacht wird.
+	# Default: 2.5
+	verticalVelocityPitchFactor = 2.5
+	# Glättung der Kamerakipp- und Rollbewegungen, die durch horizontale Bewegung verursacht werden.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Glättung der Kamerakippbewegungen, die durch vertikale Bewegung verursacht werden.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 1.0
+	cameraSmoothing = 1.0
+
+[vehicles]
+
+	# Stärke der Kamerarotation (Rollen), die durch Seitwärtslaufen oder seitliche horizontale Bewegung verursacht wird.
+	# Default: 5.0
+	strafingRollFactor = 5.0
+	# Stärke der Kamerakippbewegung (Neigung), die durch Vorwärts- oder Rückwärtsbewegung verursacht wird.
+	# Default: 3.5
+	forwardVelocityPitchFactor = 3.5
+	# Stärke der Kamerakippbewegung (Neigung), die durch vertikale Geschwindigkeit verursacht wird.
+	# Default: 5.0
+	verticalVelocityPitchFactor = 5.0
+	# Glättung der Kamerakipp- und Rollbewegungen, die durch horizontale Bewegung verursacht werden.
+	# Default: 1.0
+	horizontalVelocitySmoothingFactor = 1.0
+	# Glättung der Kamerakippbewegungen, die durch vertikale Bewegung verursacht werden.
+	# Default: 1.0
+	verticalVelocitySmoothingFactor = 1.0
+	# Controls global interpolation of the camera's pitch & yaw. Does not affect gameplay (aim).
+	# Default: 0.0
+	cameraSmoothing = 0.0

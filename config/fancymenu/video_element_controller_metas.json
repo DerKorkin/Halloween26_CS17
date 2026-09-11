@@ -1,0 +1,13 @@
+[
+  {
+    "element_identifier": "b02213b8-5db6-40e9-9b80-deb2f2899d1d-1784840745887",
+    "volume": 1.0,
+    "paused": true,
+    "pending_seek_time_ms": 0
+  },
+  {
+    "element_identifier": "fa466040-7e66-4006-8f56-8d7721c87c2c-1784666781509",
+    "volume": 1.0,
+    "paused": false
+  }
+]

@@ -1,0 +1,7 @@
+
+[LightDistance]
+	#the distance the light travels in blocks.
+	FlashlightDistance = 67.0
+	#the distance the light travels in blocks.
+	ShakelightDistance = 37.0
+

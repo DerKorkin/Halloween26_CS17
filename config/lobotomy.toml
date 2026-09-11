@@ -1,0 +1,40 @@
+#Interval between random sounds and shaders (in ticks)
+#Range: 20 ~ 72000
+lobotomy_interval = 8000
+#Range: 20 ~ 72000
+sensevent = 8000
+#Enable or disable the hotbar name glitch effect
+enable_hotbar_glitch = false
+#Interval between screamer appearances in ticks
+#Default: 5678 ticks (~4.7 minutes)
+#Range: 20 ~ 72000
+overlay_interval_ticks = 12033
+#Duration of screamer overlay display in ticks
+#Default: 10 ticks (0.5 seconds)
+#Range: 1 ~ 200
+overlay_show_ticks = 10
+#Enable random item drop
+itemdrop = false
+#Delay between random item drops (in ticks)
+#Range: 20 ~ 72000
+itemdropdelay = 6300
+#Interval between sound distortion boosts (in ticks)
+#Range: 20 ~ 72000
+epicsoundtime = 5222
+#Enable or disable epic sound distortion
+epicsound = true
+#Enable lobotomy eating system (multiple clicks required to eat)
+howtoeat = false
+#Interval of pictures with questions)
+#Range: 20 ~ 72000
+photophobictime = 18000
+#Delay before breathe event starts
+#Range: 20 ~ 72000
+breathe_event_ticks = 14000
+#Interval between screen shake events
+#Range: 20 ~ 72000
+screen_shake_interval = 20000
+#Interval between random negative effects
+#Range: 20 ~ 72000
+effects_interval = 4329
+
