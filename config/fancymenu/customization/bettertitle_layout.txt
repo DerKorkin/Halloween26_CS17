@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = bettertitle
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1784841059297
+  last_edited_time = 1789215252809
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:0ee35014-67b5-4e02-a793-db252b837418-1784841048105] = [groups:][instances:]
+  [loading_requirement_container_meta:7292b460-eb58-4961-bea2-7ade51f901ed-1789215223023] = [groups:][instances:]
 }
 
 menu_background {
@@ -60,8 +60,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 8d2b9494-13f1-4753-b8c5-b9fe819b3ace-1784667538658
-  background_type = video_mcef
+  instance_identifier = 76608464-bfb7-40e2-beec-f5d6ab60aee3-1789214991641
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -127,13 +127,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 77cd2fb4-71f7-47e9-b9b9-030db22b80db-1784667538658
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
@@ -351,7 +344,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source =   %n% {"placeholder":"loadedmods"} Mods geladen%n% Spielername: {"placeholder":"playername"}%n% Minecraft {"placeholder":"mcversion"}%n% {"placeholder":"loadername"} {"placeholder":"loaderver"}%n% Java {"placeholder":"javaver"} %n% Betriebssystem: {"placeholder":"osname"}%n% CPU: {"placeholder":"cpuinfo"}%n% GPU: {"placeholder":"gpuinfo"}%n%
+  source =  &6Modpack-Version: {"placeholder":"json","values":{"source":"/PackVers.json","json_path":"$.version"}} &f%n% {"placeholder":"loadedmods"} Mods geladen%n% Spielername: {"placeholder":"playername"}%n% Minecraft {"placeholder":"mcversion"}%n% {"placeholder":"loadername"} {"placeholder":"loaderver"}%n% Java {"placeholder":"javaver"} %n% Betriebssystem: {"placeholder":"osname"}%n% CPU: {"placeholder":"cpuinfo"}%n% GPU: {"placeholder":"gpuinfo"}%n%
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -383,12 +376,13 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 4.0
   sticky_anchor = false
   anchor_point = bottom-left
   x = 2
-  y = -77
+  y = -79
   width = 249
-  height = 74
+  height = 76
   stay_on_screen = true
   element_loading_requirement_container_identifier = 3f6bb263-d512-4f32-a6ee-742f2bf076e6-1784722307912
   [loading_requirement_container_meta:3f6bb263-d512-4f32-a6ee-742f2bf076e6-1784722307912] = [groups:][instances:]
@@ -444,6 +438,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = top-centered
   x = -167
@@ -511,6 +506,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 38cd29f8-9a95-4e88-a2a5-43ca75924dfe-1784667539111
@@ -566,6 +562,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 528d8623-9d5e-4396-8b86-82acd1445e56-1784667539113
@@ -653,6 +650,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = bottom-right
   x = -97
@@ -719,6 +717,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 38cd29f8-9a95-4e88-a2a5-43ca75924dfe-1784667539111
@@ -798,6 +797,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 7dcdd04e-69a7-4e83-8474-c8d245b18c04-1784722307912
@@ -854,10 +854,12 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
+  description = Vorrübergehend deaktiviert.
   label = Einzelspieler
   navigatable = true
   widget_active_state_requirement_container_identifier = 3fdd4952-cce1-4583-bf07-c8198d659aea-1784667638907
-  [loading_requirement_container_meta:3fdd4952-cce1-4583-bf07-c8198d659aea-1784667638907] = [groups:][instances:]
+  [loading_requirement_container_meta:3fdd4952-cce1-4583-bf07-c8198d659aea-1784667638907] = [groups:][instances:3a44047a-abe1-47e1-8f23-2d26b49f3930-1789215246731;]
+  [loading_requirement:is_modpack_mode_enabled][requirement_mode:if_not][req_id:3a44047a-abe1-47e1-8f23-2d26b49f3930-1789215246731] = 
   is_template = false
   template_apply_width = false
   template_apply_height = false
@@ -877,6 +879,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -102
@@ -955,6 +958,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -102
@@ -1033,6 +1037,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -47
@@ -1112,6 +1117,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -102
@@ -1190,6 +1196,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 2560
   auto_sizing_base_screen_height = 1380
+  auto_sizing_base_gui_scale = 0.0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -50
